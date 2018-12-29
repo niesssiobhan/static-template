@@ -1,0 +1,23 @@
+@media (min-width: 960px) {
+  main {
+    height: calc(100% - 140px);
+    overflow: hidden;
+  }
+
+  main > section {
+    float: left;
+    width: calc(100% - 300px);
+  }
+
+  main > nav {
+    float: left;
+    height: 100%;
+    width: 150px;
+  }
+
+  main > aside {
+    float: right;
+    height: 100%;
+    width: 150px;
+  }
+}
